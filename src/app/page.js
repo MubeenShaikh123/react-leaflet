@@ -8,7 +8,6 @@ const MyMap = dynamic(() => import('@/components/MyMap'), {
 export default function HomePage() {
   return (
     <div>
-      <h1>My Map Application</h1>
       <MyMap />
     </div>
   );
